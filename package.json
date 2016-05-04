@@ -4,7 +4,7 @@
   "description": "Simple drag and drop with dragula",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/valor-software/ng2-dragula.git"
+    "url": "git+https://github.com/devgnucoop/ng2-dragula.git"
   },
   "keywords": [
     "angular2",
@@ -16,9 +16,9 @@
   "author": "NathanWalker <NathanWalker>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/valor-software/ng2-dragula/issues"
+    "url": "https://github.com/devgnucoop/ng2-dragula/issues"
   },
-  "homepage": "https://github.com/valor-software/ng2-dragula#readme",
+  "homepage": "https://github.com/devgnucoop/ng2-dragula#readme",
   "scripts": {
     "clean": "rimraf node_modules doc dist && npm cache clean",
     "clean-install": "npm run clean && npm install",
@@ -39,7 +39,8 @@
     "postinstall": "npm run webdriver-update && typings install"
   },
   "dependencies": {
-    "angular2": "2.0.0-beta.13",
+    "@angular/common":  "2.0.0-rc.1",
+    "@angular/core":  "2.0.0-rc.1",
     "dragula": "^3.6.8",
     "es6-promise": "^3.1.2",
     "es6-shim": "^0.35.0",
