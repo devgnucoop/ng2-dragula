@@ -1,4 +1,4 @@
-import {Component} from 'angular2/core';
+import {Component} from '@angular/core';
 import {Dragula} from './directives/dragula.directive';
 import {DragulaService} from './providers/dragula.provider';
 
